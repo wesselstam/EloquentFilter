@@ -1,0 +1,22 @@
+{
+    "name": "wstam/eloquentfilter",
+    "description": "This package implements easy model filtering into your Laravel models and generates HTML filters in your template",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wessel Stam",
+            "email": "info@wesselstam.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5",
+        "illuminate/database": "^5.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "WStam\\EloquentFilter\\": "src/"
+        }
+    }
+}
